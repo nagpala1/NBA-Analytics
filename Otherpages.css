@@ -1,0 +1,546 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:arial;
+}
+
+body{
+	background-image:url("court.jpg");
+	background-attachment:fixed;
+}
+
+#menuBar{
+	color:black;
+	text-align:center;
+	font-weight:bold;
+	position:relative;
+	width:100%;
+	height:50px;
+	background-color:#202020;
+	top:130px;
+	left:0;
+	padding-top:10px;
+}
+
+#menuBar a{
+	color:black;
+	text-shadow:1px 1px #404040;
+}
+
+#button{
+	background-color:#FF9A15;
+	width:15.7%;
+	margin: 0 0.40%;
+	float:left;
+	border:1px solid white;
+}
+
+#menuBar > a:hover{
+	color:white;
+}
+
+#title{
+	color:white;
+	font-size:110%;
+	text-shadow:2px 2px #FF9A15;
+	background-color:black;
+	position:relative;
+	top:30px;
+	left:0;
+}
+
+#title > h1{
+	position:relative;
+}
+
+#topOfPage{
+	position:absolute;
+	top:0;
+	height:90px;
+	width:100%;
+	background-image:url("nba.jpg");
+	background-size:100%;
+}
+
+#titleImage > img{
+	position:absolute;
+	left:350px;
+	top:90px;
+	width:2.5em;
+}
+
+#container{
+	position:absolute;
+	top:190px;
+	left:7.5%;
+	height:1400px;
+	width:85%;
+	background-color:white;
+	margin-bottom:40px;
+}
+
+#bottom{
+	position:relative;
+	width:100%;
+	height:50px;
+	top:1485px;
+	background-color: #202020;
+	color:white;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+#bottom > #myname{
+	position:absolute;
+	top:15px;
+	left:15px;
+	font-style:italic;
+	text-shadow:2px 2px black;
+}
+
+#bottom > #images{
+	position:absolute;
+	left:220px;
+	top:7px;
+}
+
+#bottom #images ul{
+	list-style-type:none;
+}
+
+#bottom #images li{
+	display:inline-block;
+	margin:0 10px;
+}
+#bottom #images img{
+	max-width:35px;
+	border-radius:20px;
+}
+
+#bottom img:hover{
+	transform: scale(1.5, 1.5);
+}
+
+@media screen and (max-width:1210px){
+	#button{
+		border:0;
+		font-size:80%;
+		margin:0 0.47%;
+	}
+}
+
+/** Point Guard Page */ 
+
+
+#container > #insideContainer{
+	position:absolute;
+	height:90%;
+	width:90%;
+	margin:50px 5%;
+	background-color:gray;
+}
+#container > #pageTitle{
+	position:absolute;
+	width:100%;
+	height:60px;
+	background-color:black;
+	border-bottom:5px solid #CE0A24;
+}
+
+#container #pgTitle{
+	position:absolute;
+	color:white;
+	text-shadow:2px 2px #CE0A24;
+	top:35%;
+	left:4%;
+}
+
+#container > #insideContainer > #opening{
+	position:absolute;
+	width:92%;
+	height:9%;
+	margin:20px 4%;
+	background-color:#606060;
+}
+
+#container #para{
+	position:absolute;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-top:3%;
+	text-shadow:2px 2px black;
+}
+
+#container #imgContainer{
+	position:absolute;
+	height:1060px;
+	width:90%;
+	top:150px;
+	left:5%;
+	background-color:#606060;
+}
+
+#container #list{
+	position:absolute;
+	width:450px;
+	height:95%;
+	left:5%;
+	top:2.5%;
+	background-color:#CE0A24;
+	float:left;
+}
+
+#container #invisible{
+	position:absolute;
+	background-color:#E42B2B;
+	height:90%;
+	width:90%;
+	left:5%;
+}
+
+#container #listBorder{
+	background-color:#404040;
+	height:32.15%;
+	margin:11% 0;
+	width:100%;
+}
+
+#container ul{
+	list-style-type:none;
+}
+
+
+#container img{
+	max-width:100%;
+
+}
+
+#container #player1{
+	position:absolute;
+	top:1%;
+	text-align:center;
+	font-size:2em;
+	font-weight:bold;
+	color:white;
+	text-shadow:3px 3px black;
+}
+
+#container #stats1, #container #stats2, #container #stats3{
+	position:absolute;
+	left:7%;
+	color:white;
+	word-spacing:15px;
+	font-weight:bold;
+	text-shadow:2px 2px black;
+}
+#container #player2{
+	position:absolute;
+	top:38%;
+	font-size:2em;
+	font-weight:bold;
+	color:white;
+	text-shadow:3px 3px black;
+}
+
+#container #player3{
+	position:absolute;
+	top:75%;
+	font-size:2em;
+	font-weight:bold;
+	color:white;
+	text-shadow:3px 3px black;
+}
+
+#container #text1{
+	font-style:italic;
+	width:30%;
+	position:absolute;
+	color:white;
+	font-size:1.2em;
+	top:5%;
+	left:63%;
+	background-color:#202020;
+	padding:1em;
+}
+
+#container #text2{
+	font-style:italic;
+	width:30%;
+	position:absolute;
+	color:white;
+	font-size:1.2em;
+	top:37%;
+	left:63%;
+	background-color:#202020;
+	padding:1em;
+}
+
+#container #text3{
+	font-style:italic;
+	width:30%;
+	position:absolute;
+	color:white;
+	font-size:1.2em;
+	top:68%;
+	left:63%;
+	background-color:#202020;
+	padding:1em;
+}
+
+@media screen and (max-width:1020px){
+	#container #list{
+		width:350px;
+	}
+	#container #player1, #container #player2, #container #player3{
+		font-size:1.5em;
+	}
+	#container #player2{
+		top:36.5%;
+	}
+	#container #player1{
+		top:0.5%;
+	}
+	#container #player3{
+		top:72.5%;
+	}
+	#stats1, #stats2, #stats3{
+		text-align:center;
+		margin-top:3%;
+	}
+	#container #text1, #container #text2, #container #text3{
+		font-size:1em;
+	}
+}
+
+@media screen and (max-width:800px){
+	#container #list{
+		width:250px;
+	}
+	#container #player1, #container #player2, #container #player3{
+		font-size:1.1em;
+	}
+	#container #player2{
+		top:35.5%;
+	}
+	#container #player3{
+		top:70%;
+	}
+	#stats1, #stats2, #stats3{
+		text-align:center;
+		margin-top:6%;
+		font-size:0.9em;
+	}
+	#container #text1, #container #text2, #container #text3{
+		font-size:0.9em;
+	}
+}
+
+@media screen and (max-width:550px){
+	#container #insideContainer{
+		width:97%;
+		margin:0 1.5%;
+	}
+	#container #imgContainer{
+		width:96%;
+		left:2%;
+		top:16%;
+	}
+	#container img{
+		width:360px;
+		max-height:180px;
+
+	}
+	#container #list{
+		left:3%;
+		width:397px;
+	}
+	#container #text1{
+		font-size:0.7em;
+		top:26.5%;
+		width:351px;
+		left:34px;
+		padding:0;
+	}
+	#container #text2{
+		font-size:0.7em;
+		width:351px;
+		left:34px;
+		top:58%;
+		padding:0;
+
+	}
+	#container #text3{
+		font-size:0.7em;
+		width:351px;
+		left:34px;
+		top:89%;
+		padding:0;
+	}
+	#container #stats1, #container #stats2, #container #stats3{
+		margin:0;
+		left:8%;
+		font-size:0.8em;
+	}
+	#container #player1, #container #player2, #container #player3{
+		font-size:1.5em;
+	}
+	#container #player1{
+		top:1.2%;
+	}
+	#container #player2{
+		top:37.5%;
+	}
+	#container #player3{
+		top:73.8%;
+	}
+	#container #opening{
+		top:4%;
+	}
+}
+
+@media screen and (max-width:475px){
+	#container #list{
+		max-width:341px;
+	}
+	#container #player1, #container #player2, #container #player3{
+		font-size:1.3em;
+	}
+	#container #player1{
+		top:1%;
+	}
+	#container img{
+		max-height:195px;
+	}
+	#container #text1{
+		width:300px;
+		left:29px;
+		top:25.5%;
+	}
+	#container #stats1, #container #stats2, #container #stats3{
+		font-size:0.7em;
+	}
+	#container #player2{
+		top:36.5%;
+	}
+	#container #text2{
+		width:300px;
+		left:29px;
+		top:57%;
+	}
+	#container #player3{
+		top:72.5%;
+	}
+	#container #text3{
+		width:300px;
+		left:29px;
+		top:87%;
+	}
+}
+
+@media screen and (max-width:408px){
+	#title{
+		font-size:80%;
+		top:42px;
+	}
+	#button{
+		font-size:70%;
+	}
+	#topOfPage{
+		height:102px;
+	}
+	#titleImage > img{
+		left:265px;
+		width:1.8em;
+		top:102px;
+
+	}
+	#container #list{
+		width:289px;
+	}
+	#container #player1, #container #player2, #container #player3{
+		font-size:1.2em;
+	}
+	#container #player1{
+		top:0.5%;
+	}
+	#container #text1{
+		width:254px;
+		left:25px;
+		top:23.5%;
+	}
+	#container #stats1, #container #stats2, #container #stats3{
+		font-size:0.7em;
+	}
+	#container #player2{
+		top:36%;
+	}
+	#container #text2{
+		width:254px;
+		left:25px;
+		top:55.5%;
+	}
+	#container #player3{
+		top:71%;
+	}
+	#container #text3{
+		width:254px;
+		left:25px;
+		top:84%;
+	}
+	#container #para{
+		font-size:0.9em;
+	}
+	#bottom{
+		top:1500px;
+	}
+}
+
+@media screen and (max-width:345px){
+	#container #list{
+		width:248px;
+	}
+	#container #player1, #container #player2, #container #player3{
+		font-size:1em;
+	}
+	#container #player1{
+		top:0.5%;
+	}
+	#container #text1{
+		width:218px;
+		left:22px;
+		top:22%;
+	}
+	#container #stats1, #container #stats2, #container #stats3{
+		font-size:0.7em;
+	}
+	#container #player2{
+		top:35.3%;
+	}
+	#container #text2{
+		width:218px;
+		left:22px;
+		top:53%;
+	}
+	#container #player3{
+		top:70%;
+	}
+	#container #text3{
+		width:218px;
+		left:22px;
+		top:82%;
+	}
+	#container #para{
+		font-size:0.8em;
+	}
+	#bottom{
+		font-size:1em;
+	}
+	#bottom #images{
+		left:195px;
+	}
+	#bottom #images img{
+		max-width: 30px
+	}
+}
+

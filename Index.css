@@ -1,0 +1,595 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:arial;
+}
+
+body{
+	background-image:url("court.jpg");
+	background-attachment:fixed;
+}
+
+
+#menuBar{
+	text-align:center;
+	font-weight:bold;
+	position:relative;
+	width:100%;
+	height:50px;
+	background-color:#202020;
+	top:130px;
+	left:0;
+	padding-top:10px;
+}
+
+#menuBar a{
+	color:black;
+	text-shadow:1px 1px #404040;
+}
+
+#button{
+	background-color:#FF9A15;
+	width:15.7%;
+	margin: 0 0.40%;
+	float:left;
+	border:1px solid white;
+}
+
+#menuBar > a:hover{
+	color:white;
+}
+
+#title{
+	color:white;
+	font-size:110%;
+	text-shadow:2px 2px #FF9A15;
+	background-color:black;
+	position:relative;
+	top:30px;
+	left:0;
+}
+
+#title > h1{
+	position:relative;
+}
+
+#container{
+	position:absolute;
+	top:190px;
+	left:7.5%;
+	height:1400px;
+	width:85%;
+	background-color:white;
+	margin-bottom:40px;
+}
+
+#topOfPage{
+	position:absolute;
+	top:0;
+	height:90px;
+	width:100%;
+	background-image:url("nba.jpg");
+	background-size:100%;
+}
+
+#titleImage > img{
+	position:absolute;
+	left:350px;
+	top:90px;
+	width:2.5em;
+}
+
+#mainImages{
+	position:relative;
+	left:10%;
+	top:135px;
+	width:80%;
+}
+
+#mainImages > img{
+	max-width:21%;
+	float:left;
+	margin:0 0.2%;
+	background-color:#FF9A15;
+	padding:1.8%;
+}
+
+#mainImages > div{
+	position:absolute;
+	background-color:#CDCBCB;
+	width:90%;
+	height:1100px;
+	left:5%;
+	margin-top:25%;
+}
+
+#mainImages > div > #table1{
+	position:absolute;
+	left:5%;
+	top: 12%;
+	background-color:#FF9A15;
+	text-align:center;
+	padding:2px;
+	border:2px solid black;
+}
+
+#mainImages  div  #table1  table  td{
+	border:1px solid #CE0A24;
+}
+
+#mainImages > div > #table2{
+	position:absolute;
+	top: 12%;
+	left:28%;
+	background-color:#FF9A15;
+	text-align:center;
+	padding:2px;
+	border:2px solid black;
+}
+
+#mainImages  div  #table2  table  td{
+	border:1px solid #CE0A24;
+}
+
+#mainImages > div > #topBorder{
+	position:absolute;
+	width:100%;
+	height:110px;
+	top:0;
+	background-color:#202020;
+	border-top:5px solid #CE0A24;
+}
+
+#mainImages > div > #topBorder2{
+	position:absolute;
+	width:100%;
+	height:110px;
+	top:52%;
+	background-color:#202020;
+	border-top:5px solid #CE0A24;
+}
+
+#mainImages > div > #standings{
+	position:absolute;
+	top:2%;
+	left:18%; 
+	font-style:italic;
+	font-weight:bold;
+	background-color:#FF9A15;
+	padding:1em;
+	border:0.5em solid #CE0A24;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	text-shadow:2px 1px #CE0A24;
+}
+
+#mainImages > div > #leaders{
+	position:absolute;
+	top:2%;
+	left:68%;
+	font-style:italic;
+	font-weight:bold;
+	background-color:#FF9A15;
+	padding:1em;
+	border:0.5em solid #CE0A24;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	text-shadow:2px 1px #CE0A24;
+}
+
+#mainImages > div > #teamLeaders{
+	position:absolute;
+	top:54%;
+	left:63%;
+	font-style:italic;
+	font-weight:bold;
+	background-color:#FF9A15;
+	padding:1em;
+	border:0.5em solid #CE0A24;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	text-shadow:2px 1px #CE0A24;
+}
+
+#mainImages > div > #teamLeadersList{
+	position:absolute;
+	top: 64%;
+	left:57%;
+	background-color:#FF9A15;
+	font-size:1em;
+	width:32%;
+	border:2px solid black;
+}
+
+#mainImages > div > #teamLeadersList > ul {
+	list-style:none;
+}
+
+#mainImages > div > #teamLeadersList > ul > li {
+	margin:3%;
+	border:1px solid #CE0A24;
+	text-align: center
+}
+
+#mainImages > div >#awards{
+	position:absolute;
+	left:19%;
+	top:54%;
+	font-style:italic;
+	background-color:#FF9A15;
+	padding:1em;
+	border:0.5em solid #CE0A24;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	text-shadow:2px 1px #CE0A24;
+}
+
+#mainImages > div > #awardsList{
+	position:absolute;
+	top: 64%;
+	left:9.5%;
+	background-color:#FF9A15;
+	font-size:1em;
+	width:32%;
+	border:2px solid black;
+}
+
+#mainImages > div > #awardsList > ul {
+	list-style:none;
+}
+
+#mainImages > div > #awardsList > ul > li {
+	margin:3%;
+	border:1px solid #CE0A24;
+	text-align:center;
+}
+
+
+#mainImages > div > #leaderList{
+	position:absolute;
+	top: 12%;
+	left:59%;
+	background-color:#FF9A15;
+	font-size:1em;
+	width:32%;
+	border:2px solid black;
+}
+
+#mainImages > div > #leaderList > ul {
+	list-style:none;
+}
+
+#mainImages > div > #leaderList > ul > li {
+	margin:3%;
+	border:1px solid #CE0A24;
+	text-align: center
+}
+
+#summaryTitle{
+	text-align: center;
+	position:absolute;
+	font-size:2em;
+	font-weight:bold;
+	text-shadow:2px 2px #FF9A15;
+	top:190px;
+	left:7.5%;
+	background-color:black;
+	color:white;
+	width:85%;
+	border-bottom:5px solid #CE0A24;
+}
+
+#bottom{
+	position:relative;
+	width:100%;
+	height:50px;
+	top:1485px;
+	background-color: #202020;
+	color:white;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+#bottom > #myname{
+	position:absolute;
+	top:15px;
+	left:15px;
+	font-style:italic;
+	text-shadow:2px 2px black;
+}
+
+#bottom > #images{
+	position:absolute;
+	left:220px;
+	top:7px;
+}
+
+#bottom #images ul{
+	list-style-type:none;
+}
+
+#bottom #images li{
+	display:inline-block;
+	margin:0 10px;
+}
+#bottom #images img{
+	max-width:35px;
+	border-radius:20px;
+}
+
+span{
+	font-weight:bold;
+}
+
+#bottom img:hover{transform: scale(1.5, 1.5);}
+
+@media screen and (max-width:406px){
+	#title{
+		font-size:80%;
+		top:42px;
+	}
+	#button{
+		font-size:70%;
+	}
+	#topOfPage{
+		height:102px;
+	}
+	#titleImage > img{
+		left:265px;
+		width:1.8em;
+		top:102px;
+	}
+	#mainImages{
+		top:142px;
+	}
+}
+
+@media screen and (max-width:1210px){
+	#button{
+		border:0;
+		font-size:80%;
+		margin:0 0.47%;
+	}
+	#mainImages div #table2{
+		left:32%;
+	}
+	#mainImages div #leaderList{
+		left:62%;
+	}
+	#mainImages div #awardsList{
+		left:11%;
+	}
+	#mainImages div #teamLeadersList{
+		left:60%;
+	}
+}
+
+@media screen and (max-width:1053px){
+	#mainImages div #topBorder2{
+		top:57%;
+	}
+
+	#mainImages div #table1{
+		left:1%;
+	}
+
+	#mainImages div #leaderList{
+		left:66%;
+	}
+	#mainImages div #awards{
+		top:59%;
+	}
+	#mainImages div #awardsList{
+		top:68%;
+	}
+	#mainImages div #teamLeaders{
+		top:59%;
+	}
+	#mainImages div #teamLeadersList{
+		top:68%;
+	}
+}
+
+@media screen and (max-width:1020px){
+	#mainImages div #topBorder2{
+		top:50%;
+	}
+	#mainImages div #awards{
+		top:52%;
+		left:3%;
+	}
+	#mainImages div #teamLeaders{
+		top:52%;
+		left:34%;
+	}
+	#mainImages div #awardsList{
+		left:1%;
+		top:62%;
+	}
+	#mainImages div #teamLeadersList{
+		left:34%;
+		top:62%;
+	}
+}
+
+@media screen and (max-width:850px){
+	#table1, #table2, ul{
+		font-size:0.8em;
+	}
+	#mainImages div #awards{
+		left:15%;
+	}
+	#mainImages div #teamLeaders{
+		left:55%;
+	}
+	#mainImages div #awardsList{
+		left:10%;
+	}
+	#mainImages div #teamLeadersList{
+		left:57%;
+	}
+}
+
+@media screen and (max-width:778px){
+	#mainImages div #topBorder2{
+		top:60%;
+	}
+	#mainImages div #awards{
+		top:62%;
+	}
+	#mainImages div #awardsList{
+		top:71.5%;
+	}
+	#mainImages div #teamLeaders{
+		top:62%;
+	}
+	#mainImages div #teamLeadersList{
+		top:71.5%;
+	}
+}
+
+@media screen and (max-width:700px){
+	#mainImages > div{
+		height:1500px;
+	}
+	#container{
+		height:1720px;
+	}
+	#mainImages div #leaderList{
+		top:45%;
+	}
+	#mainImages div #topBorder2{
+		top:34%;
+	}
+	#mainImages div #awards, #mainImages div #teamLeaders, #mainImages div #leaders{
+		top:36%;
+	}
+	#awards, #teamLeaders, #leaders{
+		font-size:0.6em;
+	}
+	#mainImages div #awards{
+		left:4%;
+	}
+	#mainImages div #teamLeaders{
+		left:30%;
+	}
+	#mainImages div #awardsList{
+		left:1%;
+		top:43%;
+	}
+	#mainImages div #teamLeadersList{
+		left:33.5%;
+		top:43%;
+	}
+	#mainImages div #leaderList{
+		top:43%;
+	}
+	#mainImages div #standings{
+		left:30%;
+	}
+	#mainImages div #table1{
+		left:5%;
+		top:10%;
+	}
+	#mainImages div #table2{
+		left:45%;
+		top:10%;
+	}
+	#bottom{
+		top:1800px;
+	}
+}
+
+@media screen and (max-width:560px){
+	#mainImages > div{
+		height:1900px;
+	}
+	#mainImages div #standings{
+		top:1.5%;
+		left:30%;
+		font-size:0.8em;
+	}
+	#mainImages div #table1{
+		left:25%;
+		font-size:1em;
+		top:7%;
+	}
+	#mainImages div #table2{
+		left:25%;
+		font-size:1em;
+		top:28%;
+	}
+	#mainImages div #topBorder2{
+		top:50%;
+	}
+	#mainImages div #awards, #mainImages div #teamLeaders, #mainImages div #leaders{
+		top:52%;
+	}
+	#mainImages div #awardsList, #mainImages div #leaderList, #mainImages div #teamLeadersList{
+		top:57%;
+	}
+	#container{
+		height:2070px;
+	}
+	#bottom{
+		top:2150px;
+	}
+}
+
+@media screen and (max-width:450px){
+	#mainImages > div{
+		height:2120px;
+	}
+	#container{
+		height:2270px;
+	}
+	#bottom{
+		top:2370px;
+		font-size:1em;
+	}
+	#bottom #images{
+		left:195px;
+	}
+	#bottom #images img{
+		max-width: 30px
+	}
+	#mainImages div #standings{
+		left:20%;
+	}
+	#mainImages div #table1, #mainImages div #table2{
+		left:7%;
+	}
+	#mainImages div #table2{
+		top:24.5%;
+		margin-right:20px;
+	}
+	#mainImages div #table1{
+		top:6%;
+	}
+	#mainImages div #awards, #mainImages div #leaders, #mainImages div #teamLeaders{
+		top:48%;
+	}
+	#mainImages div #topBorder2{
+		top:47%;
+	}
+	#mainImages div #awards{
+		left:1%;
+		top:48%;
+	}
+	#mainImages div #leaders{
+		left:60%;
+		top:48%;
+	}
+	#mainImages div #teamLeaders{
+		left:20%;
+		top:49.5%;
+	}
+	#mainImages div #awardsList,#mainImages div #leaderList, #mainImages div #teamLeadersList{
+		top:53%;
+	}
+}
+
+
+
+
+
